@@ -1,0 +1,70 @@
+body { 
+	margin-top: 100px; 
+	background-color:#224411;
+	height:1200px;
+	font-family: 'Roboto',sans-serif;
+	color:#111;
+}
+
+.strongFont{
+	font-size:16px;
+}
+.rightBlock{
+	height:430px;
+}
+.homeForm{
+	padding:15px 0px 15px 1px;
+	color:#fff;
+}
+.sizer{
+	width:300px;
+}
+.text-alignment{
+	text-align:center;
+}
+
+.topEnhancer{
+	color:#fff;
+	padding:15px;
+}
+.enhancer{
+	color:#fff;
+	padding:10px;
+}
+.colorFont{
+	color:#fff;
+}
+
+.morePadding{
+	display:block;
+	padding:20px;
+}
+
+.upperPadding{
+	padding-top:40px;
+}
+.largeIcon{
+    
+	font-size: 30px;
+
+	padding-left: 20px;
+    
+	padding-right: 20px;
+
+	color: #fff;
+}
+.largeIcon a{
+	text-decoration:none;
+}
+.footer{
+	display:block;
+	padding-top:5px;
+	height:20px;
+	color:#224411;
+	font-weight:bold;
+}
+.red p{
+	background-color:#881111;
+	width: 300px;
+	color:#fff;
+}
