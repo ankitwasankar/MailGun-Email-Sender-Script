@@ -1,4 +1,4 @@
-#DCoders.MyTechBlog.in
+#DCoders EMail sender PHP scripts
 
 ####Features
 * DCoders is a simple responsive single page website developed in Bootstrap CSS and PHP Codeigniter framework.
