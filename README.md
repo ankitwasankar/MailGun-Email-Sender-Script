@@ -1,14 +1,45 @@
 #DCoders.MyTechBlog.in
-Repository is the source code for http://dcoders.mytechblog.in
-#
-DCoders is a team of passionate professional programmers. Here we develop, design and deploy the web applications.
-The team has very good command over web development technologies like PHP and the frameworks like codeigniter.
-We have developed many web applications for academic purpose for BE/BTech/ME/MTech students.
-#
-Mobile: +91-902-115-4414 | Ankit Wasankar
-#
-Mobile: +91-762-038-4419 | Pawan Wankhade
-#
-Email: ankit.wasankar12@gmail
-#
-DCoders Team
+
+####Features
+* DCoders is a simple responsive single page website developed in Bootstrap CSS and PHP Codeigniter framework.
+* Email sender PHP script for webhosts where SMTP support is not available. (such as OpenShift)
+* MailGun email sender PHP script
+* Gmail email sender PHP script
+
+Following PHP scripts can be used as email sender
+
+####Email sender PHP scripts needs following configurations:
+######File location: /application/controllers/guest_Gmail_Mail_Sender.php
+
+```sh
+/** File: /application/controllers/guest_Gmail_Mail_Sender.php **/
+
+	$config = Array(
+		'protocol' => 'smtp',
+		'smtp_host' => 'ssl://smtp.googlemail.com',
+		'smtp_port' => 465,
+		'smtp_user' => 'ankit.wasankar12',
+		'smtp_pass' => '*************',
+		'mailtype'  => 'html', 
+		'charset'   => 'iso-8859-1'
+	);
+```
+
+######File location: application/controllers/guest_MailGun_Mail_sender.php
+
+```sh
+/** File: application/controllers/guest_MailGun_Mail_sender.php **/
+
+		$config = Array(
+			'protocol' => 'smtp',
+			'smtp_host' => 'ssl://smtp.mailgun.org',
+			'smtp_port' => 465,
+			'smtp_user' => '***********',
+			'smtp_pass' => '***********',
+			'mailtype'  => 'html', 
+			'charset'   => 'iso-8859-1'
+		);
+```
+
+###Live code demo is available at following url:
+<a href="http://github.mytechblog.in/DCoders/index.php"> GitHub.MyTechBlog.in/DCoders </a>
